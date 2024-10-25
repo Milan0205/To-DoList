@@ -14,7 +14,6 @@ class _AddTaskDialogState extends State<AddTaskDialog> {
   final _descriptionController = TextEditingController();
   DateTime? _dueDate;
 
-  // To store the error messages
   String? _titleError;
 
   // Function to validate fields
